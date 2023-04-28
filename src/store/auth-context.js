@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const AuthContext = React.createContext({
   tokenn: "",
   isLoggedIn: false,
-  login: (token) => {},
+  login: () => {},
   logout: () => {},
 });
 
